@@ -1,0 +1,54 @@
+.list__container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list_item {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #dddddd;
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: auto;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons > p {
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #dddddd;
+}
+.icons > p> img{
+    height: 60%;
+}
+
+.icons > p:hover {
+    border: 1px solid #c22222;
+}
+
+.likes-filter {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: inline-block;
+    border: 1px solid #ffffff;
+}
+
+.likes-filter:hover {
+    border-color: #dddddd;
+}
